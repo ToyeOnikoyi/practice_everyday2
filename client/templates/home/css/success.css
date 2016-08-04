@@ -1,0 +1,27 @@
+.background-color{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left :0;
+background-color: #16E428;
+
+}
+body{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left :0;
+
+}
+
+.author{
+  padding-top: 50px;
+
+}
+.bottomPage{
+  position: fixed;
+
+  bottom: 50px;
+}

@@ -1,0 +1,35 @@
+ .thumbsDown {
+   height: 150px;
+   width: 150px;
+ }
+
+ .later {
+   font-size: 24px;
+   float:right;
+   padding: 50px 50px 50px 0px;
+   position:static;
+ }
+
+ .circleAM2 {
+   position: static;
+   padding-top: 70px;
+
+ }
+ .circlePM2 {
+   position: static;
+   padding-top: 70px;
+ }
+
+ .circle122 {
+   position: static;
+   padding: 92px 0px 0px 0px;
+ }
+
+ .circleZero2 {
+   position: static;
+   padding-left: 30px;
+ }
+
+ .clock2 {
+   padding: 70px 0px 0px 30px;
+ }

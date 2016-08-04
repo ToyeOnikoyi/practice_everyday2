@@ -1,0 +1,67 @@
+<template name="homeIndex">
+
+  {{#if currentUser}}
+  <h1>HEY {{currentUser.services.facebook.name}}, WHEN CAN YOU PRACTICE TODAY? </h1>
+
+      {{currentUser.services.facebook.gender}}
+      <button class="logout">Logout</button>
+      <div class="row">
+        <div class="col-xs-offset-3 col-md-offset-6 col-lg-offset-6">
+
+
+            <div class="fullCircle" >
+                <h2>0</h2>
+                <div class="row">
+                  <div class="col-xs-3">
+                <h2 class="circlePM">PM</h2>
+                 </div>
+                 <div class="col-xs-3">
+                   <h2 class="clock">{{counter}}</h2>
+                 </div>
+                 <div class="col-xs-offset-9">
+
+
+                    <h2 class="circleAM">AM</h2>
+
+                    </div>
+                </div>
+                    <h2 class="circle12">12</h2>
+                  </div>
+            </div>
+
+        </div>
+        <div class="row">
+          <div class="col-xs-offset-2">
+
+  <button class="btn btn-outlined oneAM" name="button">1am</button>
+  <button class="btn btn-outlined twoAM" name="button">2am</button>
+  <button class="btn btn-outlined threeAM" name="button">3am</button>
+  <button class="btn btn-outlined fourAM" name="button">4am</button>
+  <button class="btn btn-outlined fiveAM" name="button">5am</button>
+  <button class="btn btn-outlined sixAM" name="button">6am</button>
+  <button class="btn btn-outlined sevenAM" name="button">7am</button>
+  <button class="btn btn-outlined eightAM" name="button">8am</button>
+      </div>
+    </div>
+
+      <div class="rowConfirm">
+          <button  type="button" class="btn btn-block btn-success" >CONFIRM</button>
+          <button class="btn btn-danger btn-block ">NOT SURE</button>
+
+        </div>
+  {{else}}
+  <div class="row">
+
+
+
+      <h1>PRACTICE</h1>
+      <h1>EVERY DAY</h1>
+
+  </div>
+  <div class="rowBtn">
+        <button  class="btn btn-primary btn-block   btn-facebook">Login with Facebook</button>
+      </div>
+        <button  class="btn btn-primary btn-block  btn-twitter">Login with Twitter</button>
+  {{/if}}
+
+</template>
