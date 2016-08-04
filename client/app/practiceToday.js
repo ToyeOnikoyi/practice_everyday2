@@ -18,6 +18,7 @@ var noStreaks = Streaks.find().count();
 
   Meteor.call('addStreaks');
   console.log('streaks increassed');
+  Router.go('/confirm');
 },
 'click .notToday': function(event){
   event.preventDefault();
