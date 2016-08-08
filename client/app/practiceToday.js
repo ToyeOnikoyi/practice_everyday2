@@ -14,15 +14,12 @@ streak () {
 Template.practiceToday.events({
 'click .thumbUp': function(event){
   event.preventDefault();
-var noStreaks = Streaks.find().count();
 
-  Meteor.call('addStreaks');
-  console.log('streaks increassed');
   Router.go('/confirm');
 },
 'click .notToday': function(event){
   event.preventDefault();
-
+Router.go('/noConfirm');
 }
 
 });

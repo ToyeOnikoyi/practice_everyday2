@@ -27,3 +27,4 @@ service-configuration
 meteoric:ionic
 pcjpcj2:ratchet
 momentjs:moment
+linto:jquery-ui
