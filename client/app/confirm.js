@@ -1,6 +1,7 @@
 Template.confirm.onCreated( () => {
 
 Meteor.subscribe('myStreaks');
+
 });
 
 Template.confirm.helpers({
@@ -23,11 +24,8 @@ var noStreaks = Streaks.find().count();
 
   Meteor.call('addStreaks');
   console.log('streaks increassed');
-
+  Router.go('/');
 },
-'click .notToday': function(event){
-  event.preventDefault();
 
-}
 
 });
