@@ -27,13 +27,7 @@ service-configuration
 meteoric:ionic
 pcjpcj2:ratchet
 momentjs:moment
-<<<<<<< HEAD
 mrt:jquery-ui
 raix:push
-=======
 linto:jquery-ui
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
 themeteorchef:bert
->>>>>>> origin/master
