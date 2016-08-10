@@ -1,9 +1,10 @@
 <template name="practiceToday">
 
     <h1>HAVE YOU PRACTICED TODAY?</h1>
-    <button type="button" class="btn btn-negative notToday" name="button"></button>
-    <button type="button" class="btn btn-positive thumbUp" name="button"></button>
-{{#each streak}}
+    <a href="/confirm"><img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Green-Thumbs-Up-Button.jpg" class="thumbsUp2"></a>
+    <a href="/noConfirm"><img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Red-Thumbs-Down-Button.jpg" class="thumbsDown2"></a>
+
+    {{#each streak}}
     <h1>CURRENT STREAK: {{streaks}} </h1>
     <h1>DAYS</h1>
     <h1>CURRENT GOAL: </h1>

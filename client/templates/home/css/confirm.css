@@ -4,7 +4,22 @@
   }
 
   .thumbsup {
-    height: 300px;
-    width: 300px;
-    align-content: center;
+    height: 200px;
+    width: 200px;
+  }
+
+  .holder {
+    postition: absolute;
+  }
+
+  .confirm {
+
+  }
+
+  .confirmAgain {
+
+  }
+
+  .slider {
+    
   }

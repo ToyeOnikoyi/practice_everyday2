@@ -27,3 +27,5 @@ service-configuration
 meteoric:ionic
 pcjpcj2:ratchet
 momentjs:moment
+mrt:jquery-ui
+raix:push

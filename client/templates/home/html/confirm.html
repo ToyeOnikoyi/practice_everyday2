@@ -1,8 +1,37 @@
 <template name="confirm">
 
-  <h1>GOOD FOR YOU!</h1>
-  <div class="howLong">HOW LONG?</div>
-  <img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Green-Thumbs-Up-Button.jpg" class="thumbsup">
-  <button  type="button" class="btn btn-block btn-positive btn-positive confirm" >CONFIRM</button>
-  <button  type="button" class="btn btn-block btn-positive btn-positive confirmAgain" >CONFIRM &amp; AGAIN LATER!</button>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>jQuery UI Slider - Default functionality</title>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#slider" ).slider();
+      } );
+      </script>
+    </head>
+<body>
+    <p>
+      <h1>GOOD FOR YOU!</h1>
+      <img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Green-Thumbs-Up-Button.jpg" class="thumbsup">
+      <div class="howLong">HOW LONG?</div>
+      <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+    </p>
+
+    <p>
+    <div id="slider"></div>
+
+    <br/>
+
+    <button  type="button" class="btn btn-block btn-positive btn-positive confirm" >CONFIRM</button>
+    <button  type="button" class="btn btn-block btn-positive btn-positive confirmAgain" >CONFIRM &amp; AGAIN LATER!</button>
+    </p>
+
+</body>
+
+
 </template>
