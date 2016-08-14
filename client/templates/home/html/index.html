@@ -1,38 +1,23 @@
 <template name="homeIndex">
 
   {{#if currentUser}}
-  <div class="content">
 
+<div class="container-fluid">
 
-  <h1>HEY {{currentUser.services.facebook.name}}, WHEN CAN YOU PRACTICE TODAY? </h1>
-
-      {{currentUser.services.facebook.gender}}
-      <button class="logout">Logout</button>
-      <div class="row">
-        <div class="col-xs-offset-3 col-md-offset-6 col-lg-offset-6">
-
-
-            <div class="fullCircle" >
-                <h2>0</h2>
-                <div class="row">
-                  <div class="col-xs-3">
-                <h2 class="circlePM">PM</h2>
-                 </div>
-                 <div class="col-xs-3">
-                   <h2 class="clock">{{counter}}</h2>
-                 </div>
-                 <div class="col-xs-offset-9">
-
-
-                    <h2 class="circleAM">AM</h2>
-
-                    </div>
-                </div>
-                    <h2 class="circle12">12</h2>
-                  </div>
-            </div>
-
-        </div>
+  <div class="row row-centered">
+    	<div class="col-centered">
+  <h3>HEY {{currentUser.services.facebook.name}}</h3>
+  <h3>WHEN CAN YOU PRACTICE TODAY?</h3>
+	   </div>
+</div>
+     <div class="row row-centered">
+    	<div class=" col-centered">
+    	<div class="imageClock">
+      		<img src="clock_200.JPG" class="img-responsive clock">
+      		<div class="counter"><strong>{{counter}}</strong></div>
+    	</div>
+      </div>
+    </div>
         <div class="row">
           <div class="col-xs-offset-2">
 
@@ -53,7 +38,10 @@
           <button class="btn btn-danger btn-block ">NOT SURE</button>
 
         </div>
-  </div>
+      <button class="logout">Logout</button>
+      {{currentUser.services.facebook.gender}}
+     
+</div>
   {{else}}
   <div class="row">
 

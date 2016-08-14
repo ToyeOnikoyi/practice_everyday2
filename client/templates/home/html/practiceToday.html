@@ -1,17 +1,28 @@
 <template name="practiceToday">
 
+<div class="container-fluid">
 
+ <div class="row row-centered">
+  <div class="col-centered">
     <h3>HAVE YOU PRACTICED TODAY?</h3>
+    </div>
+  </div>
 
+	<div class="row row-centered">
+  <div class="col-xs-6">
+      <a href="/noConfirm"><img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Red-Thumbs-Down-Button.jpg" class="img-responsive thumbsDown2"></a>
 
-    <a href="/confirm"><img src="Green-Thumbs.jpg" class="img-responsive thumbsUp2"></a>
-    <a href="/noConfirm"><img src="https://www.senioradvisor.com/blog/wp-content/uploads/2014/05/Red-Thumbs-Down-Button.jpg" class="img-responsive thumbsDown2"></a>
-
+    </div>
+     <div class="col-xs-6">
+   <a href="/confirm"><img src="Green-Thumbs.jpg" class="img-responsive thumbsUp2"></a>
+     </div> 
+  </div>
+  
     {{#each streak}}
-    <h1>CURRENT STREAK: {{streaks}} </h1>
-    <h1>DAYS</h1>
-    <h1>CURRENT GOAL: </h1>
-    <h1>DAYS</h1>
+    <h1>CURRENT STREAK:<br /> {{streaks}} DAYS </h1> 
+    <h1>CURRENT GOAL:<br /> DAYS </h1>
+   
 {{/each}}
 
+</div>
 </template>
