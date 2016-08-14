@@ -19,7 +19,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 accounts-password
 mrt:bootstrap-3
-iron:router
 accounts-facebook
 accounts-twitter
 accounts-ui
@@ -31,5 +30,4 @@ mrt:jquery-ui
 raix:push
 linto:jquery-ui
 themeteorchef:bert
-flyandi:reactive-countdown
-hilios:jquery.countdown
+iron:router
