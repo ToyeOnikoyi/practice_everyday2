@@ -1,0 +1,54 @@
+<template name="confirm">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Confirm</title>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+      <link rel="stylesheet" href="/resources/demos/style.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+      <script>
+      $( function() {
+        $( "#slider" ).slider();
+      } );
+      </script>
+    </head>
+
+<body>
+
+
+
+<div class="container-fluid">
+
+<div class="row row-centered">
+  <div class="col-centered">
+        <h2>GOOD FOR YOU</h2>
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class=" col-centered">
+      <img src="Green-Thumbs.jpg" class="img-responsive thumbsup">
+    </div>
+  </div>
+  <div class="row row-centered">
+    <div class="col-centered">
+          <h3>HOW LONG?</h3>
+    </div>
+  </div>
+
+<div class="row row-centered">
+    <div id="slider"></div>
+  </div>
+<br>
+<div class="row row-centered">
+    <button  type="button" class="btn btn-block btn-positive btn-positive confirm" >CONFIRM</button>
+    <button  type="button" class="btn btn-block btn-positive btn-positive confirmAgain" >CONFIRM &amp; AGAIN LATER!</button>
+  </div>
+
+
+    </div>
+
+</body>
+
+</template>
