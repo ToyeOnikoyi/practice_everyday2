@@ -8,18 +8,22 @@
   }
 
   body {
-  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left :0;
   }
 
+  .successP {
+    font-size: 16px;
+  }
+
   .author {
   padding-top: 50px;
+  text-align: center;
   }
 
   .bottomPage {
-  position: fixed;
-  bottom: 50px;
+  text-align: center;
+  padding-top: 1250px;
   }

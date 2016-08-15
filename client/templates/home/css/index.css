@@ -46,14 +46,14 @@
   text-align: center;
   }
 
-.imageClock { 
-   position: relative; 
+.imageClock {
+   position: relative;
    width: 100%; /* for IE 6 */
 }
 
-.counter { 
-   position: absolute; 
-   top: 110px; 
-   left: 105px; 
-   width: 100%; 
+.counter {
+   position: absolute;
+   top: 110px;
+   left: 105px;
+   width: 100%;
 }
