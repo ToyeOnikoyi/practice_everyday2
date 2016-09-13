@@ -16,31 +16,6 @@
   padding-bottom: 20px;
   }
 
-  .fullCircle {
-  background-color: rgba(204, 0, 102, 0);
-  border: 3px solid #333;
-  height: 275px;
-  width: 275px;
-  text-align: center;
-  -moz-border-radius:150px;
-  -webkit-border-radius: 150px;
-  }
-
-  .circleAM{
-    position: static;
-    padding-top: 70px;
-  }
-
-  .circlePM{
-    position: static;
-    padding-top: 70px;
-  }
-
-  .circle12{
-    position: static;
-    padding: 92px 0px 0px 0px;
-  }
-
 
   h1 {
   text-align: center;

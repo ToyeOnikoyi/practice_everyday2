@@ -14,7 +14,7 @@
   }
 
   .recommit {
-
+    width:250px;
   }
 
   .quote {
@@ -28,4 +28,16 @@
   .bottomPage {
   text-align: center;
   padding-top: 1250px;
+  }
+
+  .imageClock {
+     position: relative;
+     width: 100%; /* for IE 6 */
+  }
+
+  .counter {
+     position: absolute;
+     top: 110px;
+     left: 105px;
+     width: 100%;
   }

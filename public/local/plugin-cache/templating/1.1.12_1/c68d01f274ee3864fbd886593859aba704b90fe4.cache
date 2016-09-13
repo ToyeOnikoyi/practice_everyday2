@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"ionIcon\");\nTemplate[\"ionIcon\"] = new Template(\"Template.ionIcon\", (function() {\n  var view = this;\n  return HTML.I({\n    \"class\": function() {\n      return Spacebars.mustache(view.lookup(\"classes\"));\n    }\n  });\n}));\n","bodyAttrs":{}}

@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "phonegap-plugin-push": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-meteor-webapp": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.idtklb98jlgpxvqka0jl"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"ionSpinner\");\nTemplate[\"ionSpinner\"] = new Template(\"Template.ionSpinner\", (function() {\n  var view = this;\n  return HTML.I({\n    \"class\": function() {\n      return [ \"spinner \", Spacebars.mustache(view.lookup(\"classes\")), \" \", Spacebars.mustache(view.lookup(\"icon\")) ];\n    }\n  });\n}));\n","bodyAttrs":{}}

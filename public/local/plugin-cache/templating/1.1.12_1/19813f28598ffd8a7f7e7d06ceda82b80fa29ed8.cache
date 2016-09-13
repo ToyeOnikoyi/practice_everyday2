@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"ionBackdrop\");\nTemplate[\"ionBackdrop\"] = new Template(\"Template.ionBackdrop\", (function() {\n  var view = this;\n  return HTML.Raw('<div class=\"backdrop\"></div>');\n}));\n","bodyAttrs":{}}

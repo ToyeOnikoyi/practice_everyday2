@@ -10,26 +10,15 @@
    position:static;
  }
 
- .circleAM2 {
-   position: static;
-   padding-top: 70px;
+  .backgroundNoConfirm {
+    background-color: #FFFFFF;
+  }
 
- }
- .circlePM2 {
-   position: static;
-   padding-top: 70px;
- }
+  .noConfirmGreenButton {
 
- .circle122 {
-   position: static;
-   padding: 92px 0px 0px 0px;
- }
+  }
 
- .circleZero2 {
-   position: static;
-   padding-left: 30px;
- }
-
- .clock2 {
-   padding: 70px 0px 0px 30px;
- }
+  .rowConfirm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
